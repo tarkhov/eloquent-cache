@@ -1,7 +1,7 @@
 {
     "name": "tarkhov/laravel-model-cache",
     "description": "Automated Laravel database model caching.",
-    "keywords": ["laravel", "model", "cache"],
+    "keywords": ["laravel", "model", "cache", "database", "sql", "orm"],
     "type": "library",
     "homepage": "https://github.com/tarkhov/laravel-model-cache",
     "license": "MIT",
@@ -24,6 +24,7 @@
         }
     },
     "require": {
+        "php": ">=7.0",
         "illuminate/database": "^5.5"
     }
 }

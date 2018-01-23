@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Database\Eloquent;
+namespace LaravelModelCache\Database\Eloquent;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Facades\Cache;
-use App\Database\Concerns\CacheBuildsQueries;
+use LaravelModelCache\Database\Concerns\CacheBuildsQueries;
 
 class CacheBuilder extends Builder
 {
