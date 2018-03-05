@@ -1,4 +1,4 @@
-# Laravel model cache
+# Laravel model caching
 
 Laravel Eloqeunt model auto caching.
 
@@ -16,7 +16,7 @@ Laravel Eloqeunt model auto caching.
 ### Composer
 
 ```bash
-composer require tarkhov/laravel-model-cache
+composer require tarkhov/laravel-model-caching
 ```
 
 ## Usage
@@ -29,7 +29,7 @@ Start using caching features by inheriting `CacheModel` class.
 <?php
 namespace App;
 
-use LaravelModelCache\Database\Eloquent\CacheModel;
+use LaravelModelCaching\Database\Eloquent\CacheModel;
 
 class Post extends CacheModel
 {
@@ -50,7 +50,7 @@ class Post extends CacheModel
 <?php
 namespace App;
 
-use LaravelModelCache\Database\Eloquent\CacheModel;
+use LaravelModelCaching\Database\Eloquent\CacheModel;
 
 class Category extends CacheModel
 {

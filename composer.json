@@ -1,9 +1,9 @@
 {
-    "name": "tarkhov/laravel-model-cache",
+    "name": "tarkhov/laravel-model-caching",
     "description": "Automated Laravel database model caching.",
-    "keywords": ["laravel", "model", "cache", "database", "sql", "orm"],
+    "keywords": ["laravel", "model", "cache", "database", "sql", "orm", "eloquent"],
     "type": "library",
-    "homepage": "https://github.com/tarkhov/laravel-model-cache",
+    "homepage": "https://github.com/tarkhov/laravel-model-caching",
     "license": "MIT",
     "authors": [
         {
@@ -15,12 +15,12 @@
     ],
     "support": {
         "email": "agtuks@gmail.com",
-        "issues": "https://github.com/tarkhov/laravel-model-cache/issues",
-        "source": "https://github.com/tarkhov/laravel-model-cache"
+        "issues": "https://github.com/tarkhov/laravel-model-caching/issues",
+        "source": "https://github.com/tarkhov/laravel-model-caching"
     },
     "autoload": {
         "psr-4": {
-            "LaravelModelCache\\": "src/"
+            "LaravelModelCaching\\": "src/"
         }
     },
     "require": {
