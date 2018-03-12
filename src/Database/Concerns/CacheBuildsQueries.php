@@ -1,5 +1,5 @@
 <?php
-namespace LaravelModelCaching\Database\Concerns;
+namespace EloquentCache\Database\Concerns;
 
 use Illuminate\Support\Facades\Cache;
 
