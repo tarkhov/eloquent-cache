@@ -1,6 +1,6 @@
 {
     "name": "tarkhov/eloquent-cache",
-    "description": "Automated Laravel database model caching.",
+    "description": "Laravel Eloquent model cache.",
     "keywords": ["laravel", "model", "cache", "database", "sql", "orm", "eloquent"],
     "type": "library",
     "homepage": "https://github.com/tarkhov/eloquent-cache",
@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "LaravelModelCaching\\": "src/"
+            "EloquentCache\\": "src/"
         }
     },
     "require": {
