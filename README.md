@@ -4,12 +4,19 @@ Laravel Eloqeunt model auto caching.
 
 ### Contents
 
-1. [Installation](#installation)
+1. [Compatibility](#compatibility)
+2. [Installation](#installation)
    1. [Composer](#composer)
-2. [Usage](#usage)
+3. [Usage](#usage)
    1. [Inherit model](#inherit-model)
-3. [Author](#author)
-4. [License](#license)
+4. [Author](#author)
+5. [License](#license)
+
+## Compatibility
+
+Library | Version
+------- | -------
+Laravel | 5.5
 
 ## Installation
 
