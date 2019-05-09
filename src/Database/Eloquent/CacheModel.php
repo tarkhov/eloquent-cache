@@ -6,6 +6,8 @@ use Illuminate\Support\Facades\Cache;
 
 abstract class CacheModel extends Model 
 {
+    use Concerns\CacheHasRelationships;
+
     protected $cacheKey = null;
     protected $cacheTags = [];
 
