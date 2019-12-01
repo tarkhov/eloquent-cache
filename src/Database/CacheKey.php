@@ -16,6 +16,6 @@ class CacheKey
         $bindings = array_map(function ($binding) {
             return is_numeric($binding) ? $binding : "'" . $binding . "'";
         }, $this->query->getBindings());
-        return md5(vsprintf($sql, $bindings));
+        return sha1(vsprintf($sql, $bindings));
     }
 }

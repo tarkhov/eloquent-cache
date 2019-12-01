@@ -2,15 +2,16 @@
 namespace EloquentCache\Database\Eloquent;
 
 use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Support\Facades\Cache;
-use EloquentCache\Database\Concerns\CacheBuildsQueries;
-use EloquentCache\Database\CacheKey;
 use EloquentCache\Database\QueryCache;
 
 class CacheBuilder extends Builder
 {
-    use QueryCache,
-        CacheBuildsQueries;
+    use QueryCache;
+
+    public function first($columns = ['*'])
+    {
+        return $this->cacheOne($columns, $this->query->take(1));
+    }
 
     public function get($columns = ['*'])
     {

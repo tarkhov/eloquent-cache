@@ -23,4 +23,34 @@ class CacheBelongsToMany extends BelongsToMany
         );
         return $this->cacheMany($columns, $builder);
     }
+
+    public function attach($id, array $attributes = [], $touch = true)
+    {
+        parent::attach($id, $attributes, $touch);
+    }
+
+    public function detach($ids = null, $touch = true)
+    {
+        parent::detach($ids, $touch);
+    }
+
+    public function sync($ids, $detaching = true)
+    {
+        parent::sync($ids, $detaching);
+    }
+
+    public function syncWithoutDetaching($ids)
+    {
+        parent::syncWithoutDetaching($ids);
+    }
+
+    public function toggle($ids, $touch = true)
+    {
+        parent::toggle($ids, $touch);
+    }
+
+    public function updateExistingPivot($id, array $attributes, $touch = true)
+    {
+        parent::updateExistingPivot($id, $attributes, $touch);
+    }
 }
