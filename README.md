@@ -76,7 +76,7 @@ class Category extends CacheModel
 * [Facebook](https://www.facebook.com/alex.tarkhov)
 * [Twitter](https://twitter.com/alextarkhov)
 * [Medium](https://medium.com/@tarkhov)
-* [Product Hunt](https://www.producthunt.com/@tarkhov)
+* [LinkedIn](https://www.linkedin.com/in/tarkhov/)
 
 ## License
 
